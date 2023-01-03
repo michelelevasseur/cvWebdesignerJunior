@@ -1,0 +1,548 @@
+body{
+    background: url(../images/photos_cv/pivoine_blanche.jpg);
+    background-size: cover;
+    font-family: 'agency fb', sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+    color: black;
+    
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*INFOLINE*/
+/*INFOLINE*/
+
+#infoline .row .col{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#infoline .row .col p{
+    text-align: center;
+    margin-bottom: 0;
+
+
+}
+ img{
+    width: 50px;
+    height: 50px;
+    
+    }
+
+.heading{
+    width: 32%;
+} 
+
+/* creation d'un espace entre limage et le mail*/
+.one_bar1{
+    padding-left: 25px;
+}
+
+/*NAVIGATION*/
+/*NAVIGATION*/
+
+nav{
+    background-color:#dd3726!important; 
+    font-weight: bold;
+    letter-spacing: 6px;
+    color: #fff; 
+}
+
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 1.5px!important;
+}
+
+
+nav a{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    vertical-align: middle;
+    margin: auto 0px!important;
+
+}
+nav li{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 43px;
+}
+nav li:hover{
+  
+    color: #dd3726!important; 
+    cursor: pointer;
+    background: #fff;
+}
+nav li:hover > a{
+  
+    color: #dd3726!important; 
+
+}
+
+nav .navbar-collapse .navbar-nav{
+    margin: 0px auto;
+    color: #fff;
+   text-decoration: none;
+}
+
+nav .navbar-collapse .navbar-nav li{
+    margin-right: 40px;
+    color: #fff;
+   text-decoration: none;
+}
+
+/*A PROPOS*/
+/*A PROPOS*/
+
+#a_propos{
+    background-color: #dcdcdc;
+    margin-top: 40px;
+    padding: 20px;
+    border: solid 2px white;
+}
+
+#a_propos .row .col-lg-9 h2{
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+#a_propos .row .col-9 .titre h3{
+    margin-right: 65px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+#a_propos .row .col-lg-9 h2, h3{
+   
+    font-family: calibri light;
+}
+
+.titre img{
+            margin-bottom: 10px!important;
+        }
+.description{
+    padding: 30px 0;
+    background-color: #7f7f7f;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.descript {
+    
+        text-shadow: 1px 1px 1px black;
+   
+}   
+
+.description div:first-child{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    
+    
+    
+}
+.description div:first-child h3{
+    font-family: 'agency fb', sans-serif;
+    text-transform: uppercase;
+    color: #3b3838;
+    font-weight: 500 !important;
+    
+} 
+.description {
+    color: #fff;
+}
+
+ul, li{
+    list-style:none;
+    padding: 0;
+}
+
+.photo {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;  
+}
+.photo .michele img{
+    width: 200px;
+    height: auto; 
+    margin: 0 auto;
+}
+.adresse{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    text-align: center;
+    width: 75%;
+    margin-left: 20px;
+}
+
+
+/*COMPTENCES ATOUTS*/
+/*COMPTENCES ATOUTS*/
+
+#experience_port{
+    font-family: 'agency fb', sans-serif;
+    color: #000;
+    padding: 20px;
+    border: solid 2px #fff;
+    margin-top: 40px;
+}
+ /*.timeline{
+     position: relative;
+}
+.timeline::before{
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 0; bottom: 0;
+    width: 2px; background: #000;
+}*/
+#experience_port .row h3{
+    font-family: 'agency fb', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+
+#experience_port  .bloc_1, .bloc_2{
+    margin-top: 20px;
+    background-color: #fff;
+    border: solid 2px #000;
+    padding: 10px 10px 11px 10px;
+}
+
+#experience_port .bloc_3{
+    margin-top: 20px;
+    background-color: #fff;
+    border: solid 2px #000;
+    padding: 10px 10px 36px 10px;
+}
+
+#experience_port aside .bloc_3{
+ padding-bottom: 71px;
+}
+#experience_port  .bloc_0{
+    background-color: #fff;
+    border: solid 2px #000;
+    padding: 8px;
+}
+.timeline .left{
+  display: flex !important;
+    flex-flow: column;
+    justify-content: flex-end;
+   
+}
+
+#experience_port aside .bloc_1{
+ margin-top: 20px;
+}
+
+
+#experience_port p, #experience_port h4{
+    color: #dd3726;
+    font-weight: bold;
+}
+#experience_port .bloc_0 h4:nth-child(1),.bloc_1 h4:nth-child(1),.bloc_2 h4:nth-child(1), .bloc_3 h4:nth-child(1), bloc_3 p{
+    color: #000!important;
+}
+
+
+#experience_port .portfolio{
+    margin-top: 20px;
+    background-color: #fff;
+    border: solid 2px #000;
+    padding: 30px;
+    word-spacing: 10px;
+    letter-spacing: 6px;
+    height: 150px;
+    color: #fff;
+    background-color: #dd3726;
+}
+#experience_port .portfolio span{
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-size: 18px;
+}
+.portfolio .bouton{
+    position:relative;
+    width: 150px;
+    height: 40px;
+    border: solid 2px black;
+    border-radius: 6px;
+    margin: 15px auto;
+    background-color: #fff;
+    z-index: 1;
+}
+.bouton::before{
+    position: absolute;
+    content: '';
+    left: 50%;
+    width: 0px;
+    height: 100%!important;
+    border-radius: 6px;
+    z-index: -2;
+    top: 0;
+    background: #dd3726;
+}
+.bouton:hover::before{
+    transition: left 0.3s linear, width 0.3s linear;
+    left: 0;
+    width: 100%;
+}
+
+.portfolio .bouton a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #dd3726;
+    z-index: 3;
+    width: 150px!important;
+    height: 40px;
+}
+
+.bouton:hover a{
+    
+   color: #fff!important;
+    
+}
+.competences{
+    margin-top: 20px;
+    background-color: #fff;
+    border: solid 2px #000;
+    padding: 10px 10px 17px 10px;
+}
+
+.competences h4{
+    color: #000!important; 
+}
+
+/*INTERETS INTERETS*/
+/*INTERETS INTERETS*/
+
+#interets{
+    background-color: #dcdcdc;
+    margin-top: 40px;
+    margin-bottom:30px;
+    padding: 20px;
+    border: solid 2px white;
+}
+
+#interets >.row >.col-lg-4 > div{
+    background-color: #7f7f7f;
+    color: #fff;
+    border: solid 2px black;
+    padding: 20px;
+   
+}
+
+.telecharger{
+    position: fixed;
+    bottom: 0; left: 0;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border: solid 2px #fff;
+    border-radius: 50%;
+   
+}
+
+.scroll_to_top{
+    position: fixed;
+    bottom: 0; right: 0;
+    background-color: #dd3726;
+    color: #fff;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    border: solid 2px #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px 0px 0 0;
+}
+
+.scroll_to_top a i{
+    color: #fff;
+    margin-top: 10px;
+    margin: auto 0;
+}
+
+
+
+/*MEDIA QUERY VERSION MOBILE*/
+/*MEDIA QUERY VERSION MOBILE*/
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    button{
+        margin: auto;
+    }
+    .navbar-nav{
+        align-items: center;
+    }
+      .navbar-nav li{
+        margin-left: 5px;
+        margin-right: 0px!important;
+    }
+    .heading{
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        border-bottom: solid 1px #3b3838;
+        margin-right: 35px;
+        
+  }
+
+    #interets .row div:last-child{
+        margin-top: 10px;
+    }
+        #a_propos .row{
+        display: flex;
+        flex-flow: column-reverse nowrap;
+        flex-flow: column-reverse nowrap;
+    }
+    .adresse{
+    justify-content: center;
+    margin: 5px auto;
+}
+        aside{
+            display: flex;
+            flex-flow: column nowrap;
+        }
+      .moins_1{
+            order: 1;
+        }
+    
+        .titre img{
+            margin-bottom: 10px!important;
+        }
+        #experience_port  .bloc_0{
+        margin-top: 20px;
+            
+        }
+   }  
+    
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .competences{
+        height: 457px;
+    }
+    #interets  .int{
+        width: 400px!important;
+        
+        }
+}
+
+@media screen and (min-width: 1200px){
+    .competences{
+        height: inherit;
+    }
+}
+    
+
+    @media screen and (max-width: 576px){
+
+        button{
+            margin: auto;
+    }
+         nav li{   
+       align-items: flex-start;
+       padding-left: 5px;
+        
+  }
+    .heading{
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        border-bottom: solid 1px #3b3838;
+        margin-right: 35px;
+
+  }
+    .one_bar{
+        font-size: 0.8em;
+
+    }
+    /* taille caractère et espace entre l'image et l'adresse mail*/
+    .one_bar1{
+        font-size: 0.8em;
+        padding-left: 5px;
+    }
+
+    .description{   
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 10px;
+        
+  }
+    #a_propos .row{
+        display: flex;
+        flex-flow: column-reverse nowrap;
+        flex-flow: column-reverse nowrap;
+    }
+        .photo{
+            display: block;
+        }
+        
+        .adresse{
+            display: block;
+            text-align: justify;
+            margin-top: 10px;
+        }
+        .titre h3{
+            display: block!important;
+            
+        }
+        .titre img{
+            margin: 10px 0!important;
+            
+        }
+        .name h2{
+            font-size: 1.5em!important ;
+        }
+        
+ #experience_port  .bloc_1, .bloc_2, .bloc_3{
+
+    padding: 10px!important;
+}
+    #interets .row div:last-child{
+            margin-top: 10px;
+    }
+        
+        aside{
+            display: flex;
+            flex-flow: column nowrap;
+        }
+          .adresse{
+            display: block;
+            text-align: justify;
+        }
+    .moins_1{
+            order: 1;
+            
+        }
+    #experience_port  .bloc_0{
+        margin-top: 20px;
+        
+        }
+        
+    }
+
+@media screen and (max-width: 992px){
+       #infoline .navbar-nav{   
+        border: none;
+        display: flex;
+        flex-flow: column;    
+  }
+    #infoline .navbar-nav li{   
+        border: none;
+        width: 100%;
+        
+  }
+        }
+
