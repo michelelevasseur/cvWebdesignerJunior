@@ -350,9 +350,8 @@ ul, li{
     background-color: #fff;
     height: 50px;
     width: 50px;
-    border: solid 2px #fff;
-    border-radius: 50%;
-   
+    border: solid 2px #fff ;
+    border-radius: 50%; 
 }
 
 .scroll_to_top{
@@ -363,7 +362,7 @@ ul, li{
     padding: 20px;
     height: 50px;
     width: 50px;
-    border: solid 2px #fff;
+    border: solid 4px #fff;
     border-radius: 50%;
     text-align: center;
     padding: 10px 0px 0 0;
